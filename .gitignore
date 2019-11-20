@@ -1,3 +1,4 @@
+bsp/
 obj/
 list/
 stm32f407/rtthread.bin
