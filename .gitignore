@@ -1,4 +1,7 @@
-Obj/
+obj/
 list/
-bsp/
-bsp/
+stm32f407/rtthread.bin
+stm32f407/DebugConfig/rt-thread_STM32F407ZGTx.dbgconf
+.tags_sorted_by_file
+.tags
+stm32f407/DebugConfig/laser_controller_board_STM32F407ZGTx.dbgconf
