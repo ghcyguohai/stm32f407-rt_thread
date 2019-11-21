@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER, STM32F407xx USE_FULL_LL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\applications;.;..\libraries\HAL_Drivers;.\board\CubeMX_Config\Inc;..\rt-thread\include;..\rt-thread\libcpu\arm\cortex-m4;..\rt-thread\libcpu\arm\common;..\rt-thread\components\drivers\include;..\rt-thread\components\finsh;..\libraries\STM32F4xx_HAL\STM32F4xx_HAL_Driver\Inc;..\libraries\STM32F4xx_HAL\CMSIS\Device\ST\STM32F4xx\Include;..\libraries\STM32F4xx_HAL\CMSIS\Include;..\rt-thread\components\drivers\include\drivers;.\applications\task_communication;.\applications\task_motor_control;.\applications\task_pwm_output;.\board;.\board\CubeMX_Config;.\board\ports;..\libraries\HAL_Drivers\config</IncludePath>
+              <IncludePath>.\applications;.;..\libraries\HAL_Drivers;.\board\CubeMX_Config\Inc;..\rt-thread\include;..\rt-thread\libcpu\arm\cortex-m4;..\rt-thread\libcpu\arm\common;..\rt-thread\components\drivers\include;..\rt-thread\components\finsh;..\libraries\STM32F4xx_HAL\STM32F4xx_HAL_Driver\Inc;..\libraries\STM32F4xx_HAL\CMSIS\Device\ST\STM32F4xx\Include;..\libraries\STM32F4xx_HAL\CMSIS\Include;..\rt-thread\components\drivers\include\drivers;.\applications\task_communication;.\applications\task_motor_control;.\applications\task_pwm_output;.\board;.\board\CubeMX_Config;.\board\ports;..\libraries\HAL_Drivers\config;..\rt-thead_third_package\fal\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -645,6 +645,31 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>rt-thread/third_package/fal</GroupName>
+          <Files>
+            <File>
+              <FileName>fal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\rt-thead_third_package\fal\src\fal.c</FilePath>
+            </File>
+            <File>
+              <FileName>fal_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\rt-thead_third_package\fal\src\fal_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>fal_partition.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\rt-thead_third_package\fal\src\fal_partition.c</FilePath>
+            </File>
+            <File>
+              <FileName>fal_rtt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\rt-thead_third_package\fal\src\fal_rtt.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>chip_midlelayer_drivers</GroupName>
           <Files>
             <File>
@@ -686,6 +711,11 @@
               <FileName>drv_pwm.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\libraries\HAL_Drivers\drv_pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_flash_f4.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\libraries\HAL_Drivers\drv_flash\drv_flash_f4.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -791,6 +821,16 @@
               <FileName>stm32f4xx_ll_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\libraries\STM32F4xx_HAL\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\libraries\STM32F4xx_HAL\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_flash_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\libraries\STM32F4xx_HAL\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c</FilePath>
             </File>
           </Files>
         </Group>

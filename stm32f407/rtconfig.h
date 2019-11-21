@@ -103,6 +103,9 @@
 #define USB_PRODUCT_ID 0x5740
 
 
+
+#define BSP_USING_ON_CHIP_FLASH
+#define PKG_USING_FAL
 /* POSIX layer and C standard library */
 
 

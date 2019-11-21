@@ -14,6 +14,9 @@
 #include <rtthread.h>
 #include <board.h>
 
+#define  FAL_PART_TABLE_FLASH_DEV_NAME   "Memory_device"
+#define  FAL_PART_HAS_TABLE_CFG    
+
 #define FLASH_SIZE_GRANULARITY_16K   (4 * 16 * 1024)
 #define FLASH_SIZE_GRANULARITY_64K   (64 * 1024)
 #define FLASH_SIZE_GRANULARITY_128K  (7 * 128 * 1024)
